@@ -1,4 +1,4 @@
-package ru.forque.factory.factorymethod;
+package ru.forque.factory.factorymethod.product;
 
 /**
  * Author: hetsketch
