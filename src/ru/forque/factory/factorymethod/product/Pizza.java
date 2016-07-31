@@ -5,19 +5,5 @@ package ru.forque.factory.factorymethod.product;
  * Created: 7/30/16
  */
 public abstract class Pizza {
-
-    protected void makeDough() {
-        System.out.println("Making dough");
-    }
-
-    protected void bake() {
-        System.out.println("Baking");
-    }
-
-    protected void pack() {
-        System.out.println("Packing");
-    }
-
-    protected abstract void addIngredients();
-
+    public abstract void prepare();
 }

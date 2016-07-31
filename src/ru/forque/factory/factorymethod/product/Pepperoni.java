@@ -6,7 +6,7 @@ package ru.forque.factory.factorymethod.product;
  */
 public class Pepperoni extends Pizza{
     @Override
-    protected void addIngredients() {
-        System.out.println("A lot of cheese!");
+    public void prepare() {
+        System.out.println("I'm pepperoni pizza");
     }
 }

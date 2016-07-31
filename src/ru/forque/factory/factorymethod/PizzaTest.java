@@ -6,9 +6,14 @@ package ru.forque.factory.factorymethod;
  */
 public class PizzaTest {
     public static void main(String[] args) {
-        PizzaFactory factory = new PizzaFactory();
+        PizzaFactory factory = new PizzaStore();
 
-        PizzaStore store = new PizzaStore(factory);
-        store.getPizza("grand carne");
+        System.out.println("Grand carne pizza:");
+        factory.createPizza("grand carne").prepare();
+
+        System.out.println();
+
+        System.out.println("Pepperoni pizza:");
+        factory.createPizza("pepperoni").prepare();
     }
 }

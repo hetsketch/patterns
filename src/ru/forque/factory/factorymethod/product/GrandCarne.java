@@ -6,7 +6,7 @@ package ru.forque.factory.factorymethod.product;
  */
 public class GrandCarne extends Pizza {
     @Override
-    protected void addIngredients() {
-        System.out.println("Different meats");
+    public void prepare() {
+        System.out.println("I'm grand carne pizza");
     }
 }
