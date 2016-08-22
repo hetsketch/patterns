@@ -1,7 +1,8 @@
 package ru.forque.decorator;
 
 /**
- * Created by hetsketch on 7/25/16.
+ * Author: hetsketch
+ * Created: 7/25/16
  */
 public class CarWithSpoilerDecorator extends CarDecorator{
     public CarWithSpoilerDecorator(Car car) {
