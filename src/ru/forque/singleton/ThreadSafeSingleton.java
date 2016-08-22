@@ -10,7 +10,7 @@ public class ThreadSafeSingleton {
     private ThreadSafeSingleton(){}
 
     //only one thread can enter in this method
-    public synchronized ThreadSafeSingleton getInstance() {
+    public static synchronized ThreadSafeSingleton getInstance() {
         if (instance == null) {
             instance = new ThreadSafeSingleton();
         }
